@@ -1,0 +1,10 @@
+<svg version="1.1"
+   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+   x="0px" y="0px" width="12.1px" height="68.9px" viewBox="0 0 12.1 68.9" enable-background="new 0 0 12.1 68.9"
+   xml:space="preserve">
+<defs>
+</defs>
+<rect x="5.1" y="0" fill="#FFFFFF" width="2" height="60"/>
+<rect x="5.1" y="30" opacity="0.75" fill="#5358A6" width="2" height="30"/>
+<polygon fill="#5358A6" points="12.1,60 6.5,68.9 0,60 "/>
+</svg>
