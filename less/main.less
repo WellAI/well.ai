@@ -1,0 +1,133 @@
+body {
+	font-family: "proxima-nova",sans-serif;
+	-webkit-font-smoothing: antialiased;
+    font-size: 100%;
+}
+
+h3 {
+	color: #58585b;
+	font-size: 44px;
+	font-weight: 600;
+}
+
+p {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 40px;
+	color: white;
+}
+
+.navbar {
+	.navbar-nav {
+		a {
+			font-family: "proxima-nova-soft",sans-serif;
+			font-size: 18px;
+			color: white;
+
+			&.pledge {
+				border-radius: 23px;
+				background-color: #e2344d;
+				display: inline-block;
+				width: 147.274px;
+				height: 45.07px;
+				text-align: center;
+			}
+
+			&:hover {
+				background: none;
+			}
+		}
+	}
+}
+
+// Sections
+
+#unicorn {
+	background: url('../img/thereactor.jpg') no-repeat;
+	background-size: cover;
+	height: 800px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	color: white;
+
+	.content {
+		position: relative;
+		z-index: 2
+	}
+
+	.titles {
+
+		p.intro {
+			text-transform: uppercase;
+			font-size: 28px;
+		}
+
+		p.desc {
+			font-weight: 600;
+			font-size: 22px;	
+		}
+
+		h1 {
+			font-size: 110px;
+			font-weight: 800;
+		}
+	}
+}
+
+#use-cases {
+	text-align: center;
+	h1 {
+		font-size: 130.2px;
+		font-weight: 800;
+		text-transform: uppercase;
+		color: #d1d2d4;
+	}
+
+	#desk {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+
+	.case {
+		img {
+		    position: absolute;
+		    right: 0;
+	        display: inline-block;
+	        width: 100%;
+		}
+		h3 {
+
+		}
+
+		p {
+			color: #6d6e70;
+		}
+	}
+}
+
+#overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+
+	/* unicorn gradient */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b55aa0+0,3a56a3+33,2783c2+72,7dccc9+100 */
+	background: rgb(181,90,160); /* Old browsers */
+	background: -moz-linear-gradient(left,  rgba(181,90,160,1) 0%, rgba(58,86,163,1) 33%, rgba(39,131,194,1) 72%, rgba(125,204,201,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(181,90,160,1) 0%,rgba(58,86,163,1) 33%,rgba(39,131,194,1) 72%,rgba(125,204,201,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(181,90,160,1) 0%,rgba(58,86,163,1) 33%,rgba(39,131,194,1) 72%,rgba(125,204,201,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b55aa0', endColorstr='#7dccc9',GradientType=1 ); /* IE6-9 */
+
+	opacity: 0.7;
+	height: 100%;
+	width: 100%;
+}
