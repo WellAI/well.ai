@@ -1,3 +1,3 @@
 # well.io
 
-jesuisparis.well.io
+http://jesuisparis.well.io
