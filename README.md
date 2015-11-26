@@ -1,4 +1,4 @@
-# well.io
+# well.ai
 
 http://jesuisparis.well.io
 
