@@ -88,6 +88,12 @@ ul {
 .navbar .navbar-nav li a:hover {
   background: none;
 }
+.navbar .navbar-toggle {
+  background: #d1d3d4;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #e2354d;
+}
 .flask-wrapper {
   position: relative;
   z-index: -1;
