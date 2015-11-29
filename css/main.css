@@ -106,8 +106,8 @@ ul {
 }
 @media only screen and (max-width: 767px) {
   .flask-wrapper .flask {
-    margin-left: -459px;
     top: -300px;
+    left: 756px;
   }
   .flask-wrapper .flask svg {
     width: 900px;
